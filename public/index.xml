@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Luke’s Project 11, Inc.</title>
+    <link>http://example.com/</link>
+    <description>Recent content in Home on Luke’s Project 11, Inc.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Us</title>
+      <link>http://example.com/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/about-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hey There 1</title>
+      <link>http://example.com/news/hey-there-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/news/hey-there-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hey There 2</title>
+      <link>http://example.com/news/hey-there-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/news/hey-there-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hey There 3</title>
+      <link>http://example.com/news/hey-there-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/news/hey-there-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hey There 4</title>
+      <link>http://example.com/news/hey-there-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/news/hey-there-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News and Events</title>
+      <link>http://example.com/news-and-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/news-and-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thank You</title>
+      <link>http://example.com/thank-you/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/thank-you/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

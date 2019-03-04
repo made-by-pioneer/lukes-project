@@ -1,0 +1,90 @@
+baseURL = "http://example.com/"
+description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
+languageCode = "en-us"
+theme = "site-theme"
+title = "Luke’s Project 11, Inc."
+[[menu.desktop]]
+identifier = "about-us"
+name = "About Us"
+url = "/about-us"
+weight = 1
+[[menu.desktop]]
+identifier = "ways-to-give"
+name = "Ways to Give"
+url = "/ways-to-give"
+weight = 2
+[[menu.desktop]]
+identifier = "apply-now"
+name = "Apply Now"
+url = "/apply"
+weight = 3
+[[menu.mobile]]
+identifier = "about-us"
+name = "About Us"
+url = "/about-us"
+weight = 1
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Donate my Time</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Donate my Money</a></li></ul>'
+[[menu.mobile]]
+identifier = "ways-to-give"
+name = "Ways to Give"
+url = "/ways-to-give"
+weight = 2
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/about">Learn about LP11</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/news-and-events">News and Events</a></li></ul>'
+[[menu.mobile]]
+identifier = "apply-now"
+name = "Apply Now"
+url = "/apply"
+weight = 3
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Fund my Project</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Nominate a Graduate</a></li></ul>'
+    [[menu.about]]
+    identifier = "donate-time"
+    name       = "Donate my Time"
+    url        = "/donate-time"
+    weight     = 1
+
+    [[menu.about]]
+    identifier = "donate-money"
+    name       = "Donate my Money"
+    url        = "/donate-money"
+    weight     = 2
+
+    [[menu.give]]
+    identifier = "learn-about-lp11"
+    name       = "Learn about LP11"
+    url        = "/about-us"
+    weight     = 1
+
+    [[menu.give]]
+    identifier = "news-and-events"
+    name       = "News and Events"
+    url        = "/news-and-events"
+    weight     = 2
+
+    [[menu.apply]]
+    identifier = "fund-my-project"
+    name       = "Fund my Project"
+    url        = "/apply"
+    weight     = 1
+
+    [[menu.apply]]
+    identifier = "nominate-a-graduate"
+    name       = "Nominate a Graduate"
+    url        = "/nominate-graduate"
+    weight     = 2
+
+[params.Contact_Numbers]
+Fax = "555.555.5555"
+Phone = "555.555.5555"
+[params.Logos]
+dark_logo = "/pageimg/dark-logo.svg"
+logo = "/branding/LP11.Wordmark.Blue.svg"
+mobile_logo = "/branding/LP11.Mark.FullColor.svg"
+[params.address]
+city = "Statesboro"
+state = "GA"
+street = "131 Sweetbriar Trail"
+zip = 30461
+[params.email]
+email = "lukesproject11@gmail.com"
+[params.tracking]
+google_analytics = ""
