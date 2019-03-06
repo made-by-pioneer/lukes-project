@@ -11,7 +11,7 @@ weight = 1
 [[menu.desktop]]
 identifier = "ways-to-give"
 name = "Ways to Give"
-url = "/ways-to-give"
+url = "/donate-time"
 weight = 2
 [[menu.desktop]]
 identifier = "apply-now"
@@ -23,13 +23,13 @@ identifier = "about-us"
 name = "About Us"
 url = "/about-us"
 weight = 1
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Donate my Time</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Donate my Money</a></li></ul>'
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/about">Learn about LP11</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/news-and-events">News and Events</a></li></ul>'
 [[menu.mobile]]
 identifier = "ways-to-give"
 name = "Ways to Give"
-url = "/ways-to-give"
+url = "/donate-time"
 weight = 2
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/about">Learn about LP11</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/news-and-events">News and Events</a></li></ul>'
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Donate my Time</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Donate my Money</a></li></ul>'
 [[menu.mobile]]
 identifier = "apply-now"
 name = "Apply Now"
@@ -37,27 +37,27 @@ url = "/apply"
 weight = 3
 post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Fund my Project</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Nominate a Graduate</a></li></ul>'
     [[menu.about]]
-    identifier = "donate-time"
-    name       = "Donate my Time"
-    url        = "/donate-time"
-    weight     = 1
-
-    [[menu.about]]
-    identifier = "donate-money"
-    name       = "Donate my Money"
-    url        = "/donate-money"
-    weight     = 2
-
-    [[menu.give]]
     identifier = "learn-about-lp11"
     name       = "Learn about LP11"
     url        = "/about-us"
     weight     = 1
 
-    [[menu.give]]
+    [[menu.about]]
     identifier = "news-and-events"
     name       = "News and Events"
     url        = "/news-and-events"
+    weight     = 2
+
+    [[menu.give]]
+    identifier = "donate-time"
+    name       = "Donate my Time"
+    url        = "/donate-time"
+    weight     = 1
+
+    [[menu.give]]
+    identifier = "donate-money"
+    name       = "Donate my Money"
+    url        = "/donate-money"
     weight     = 2
 
     [[menu.apply]]

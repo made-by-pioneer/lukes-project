@@ -85,6 +85,9 @@
 input[type="submit"]:hover {
     cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
 @media screen and (min-width: 576px) {
   .mobile-menu-button button {
   width: 50px;
@@ -183,7 +186,9 @@ input[type="submit"]:hover {
 </a>
 {{ partial "site-navigation.html" . }}
 <div id="header-button" class="w-1/2 md:w-1/6 ml-auto text-right z-50">
-  <button class="hidden lg:inline-flex bg-color-0194D3 hover:bg-color-0182BA active:bg-color-0170A0 focus:bg-color-0182BA hover:cursor-pointer focus:outline-none px-4 py-3 text-base text-white italic font-normal default-button">Donate Here</button>
+  <a href="/contact-us">
+    <button class="hidden lg:inline-flex bg-color-0194D3 hover:bg-color-0182BA active:bg-color-0170A0 focus:bg-color-0182BA hover:cursor-pointer focus:outline-none px-4 py-3 text-base text-white italic font-normal default-button">Donate Here</button>
+  </a>
 </div>
 </div>
 </section>
@@ -202,7 +207,9 @@ input[type="submit"]:hover {
     <li class="pt-2 pb-4 mobile-menu-item">{{ .Pre }}<a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} no-underline text-4xl text-white" href="{{.URL}}">{{ .Name }}</a>{{ .Post }}</li>
     {{ end }}
   </ul>
-  <button class="ml-12 inline-flex lg:hidden bg-color-0194D3 hover:bg-color-0182BA active:bg-color-0170A0 focus:bg-color-0182BA hover:cursor-pointer focus:outline-none px-4 py-3 text-base text-white italic font-normal default-button">Donate Here</button>
+  <a href="/contact-us">
+    <button class="ml-12 inline-flex lg:hidden bg-color-0194D3 hover:bg-color-0182BA active:bg-color-0170A0 focus:bg-color-0182BA hover:cursor-pointer focus:outline-none px-4 py-3 text-base text-white italic font-normal default-button">Donate Here</button>
+  </a>
 </div>
 </div>
 
