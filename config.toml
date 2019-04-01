@@ -18,12 +18,17 @@ identifier = "apply-now"
 name = "Apply Now"
 url = "/apply"
 weight = 3
+[[menu.desktop]]
+identifier = "contact-us"
+name = "Contact Us"
+url = "/contact-us"
+weight = 4
 [[menu.mobile]]
 identifier = "about-us"
 name = "About Us"
 url = "/about-us"
 weight = 1
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/about">Learn about LP11</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/news-and-events">News and Events</a></li></ul>'
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/about-us">Learn about LP11</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/news-and-events">News and Events</a></li></ul>'
 [[menu.mobile]]
 identifier = "ways-to-give"
 name = "Ways to Give"
@@ -36,6 +41,11 @@ name = "Apply Now"
 url = "/apply"
 weight = 3
 post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Fund my Project</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Nominate a Graduate</a></li></ul>'
+[[menu.mobile]]
+identifier = "contact-us"
+name = "Contact Us"
+url = "/contact-us"
+weight = 4
     [[menu.about]]
     identifier = "learn-about-lp11"
     name       = "Learn about LP11"
@@ -78,7 +88,8 @@ Phone = "555.555.5555"
 [params.Logos]
 dark_logo = "/pageimg/dark-logo.svg"
 logo = "/branding/LP11.Wordmark.Blue.svg"
-mobile_logo = "/branding/LP11.Mark.FullColor.svg"
+mobile_logo = "/branding/LP11.Mark.White.svg"
+inner_page_mobile_logo = "/branding/LP11.Mark.FullColor.svg"
 [params.address]
 city = "Statesboro"
 state = "GA"

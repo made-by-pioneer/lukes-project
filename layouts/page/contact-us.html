@@ -12,7 +12,7 @@
 </section>
 
 <section id="funding-application" class="flex flex-wrap pb-48">
-    <div class="w-5/6 lg:w-3/5 mx-auto lg:mx-0 lg:ml-auto">
+    <div class="w-full lg:w-3/5 mx-auto lg:mx-0 lg:ml-auto">
         <form class="flex flex-wrap mx-auto pt-8 items-start">
         <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:ml-auto border-r-20 border-white">
           <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">First Name*</label>
@@ -63,24 +63,30 @@
         </div>
       </form>
     </div>
-    <div class="w-5/6 lg:w-1/5 mx-auto lg:mx-0 lg:mr-auto pt-12 lg:pt-0">
+    <div class="flex flex-wrap w-5/6 lg:w-1/5 mx-auto lg:mx-0 lg:mr-auto pt-16 lg:pt-8">
+      <div class="w-full md:w-1/2 lg:w-full">
         <h6 class="font-chivo text-base text-color-0194D3 font-bold pb-1">Our Address</h6>
         <p class="font-chivo text-sm leading-normal">{{ .Site.Params.address.street }}</p>
         <p class="font-chivo text-sm leading-normal">{{ .Site.Params.address.city }}, {{ .Site.Params.address.state }} {{ .Site.Params.address.zip }}</p>
-        <div class="flex flex-wrap md:text-left pb-16 lg:pb-0 mx-auto pt-8">
-        <h6 class="w-full font-chivo text-base text-color-0194D3 font-bold pb-1">Follow Us</h6>
-        <div class="w-1/3 md:w-1/6 text-right md:text-center py-5 pr-1 lg:p-0">
-          <ion-icon class="text-2xl text-color-0194D3" name="logo-facebook"></ion-icon>
-        </div>
-        <div class="w-2/3 md:w-5/6 py-5 lg:p-0">
-          <p class="font-chivo text-sm leading-normal text-left">Find us on Facebook</p>
-        </div>
-        <div class="w-1/3 md:w-1/6 text-right md:text-center py-2 pr-1 lg:p-0">
-          <ion-icon class="text-2xl text-color-0194D3" name="logo-instagram"></ion-icon>
-        </div>
-        <div class="w-2/3 md:w-5/6 py-2 lg:p-0">
-          <p class="font-chivo text-sm leading-normal text-left">Follow us on Instagram</p>
-        </div>
+      </div>
+        <div class="w-full md:w-1/2 lg:w-full flex flex-wrap md:text-left pb-16 lg:pb-0 mx-auto pt-8 md:pt-0 lg:pt-8">
+          <h6 class="w-full font-chivo text-base text-color-0194D3 font-bold pb-1">Follow Us</h6>
+          <a class="flex flex-wrap w-full h-8 items-center" href="https://www.facebook.com/LukesProject11/">
+            <div class="w-6 text-right md:text-center py-5 pr-1 lg:p-0">
+              <ion-icon class="text-2xl text-color-0194D3" name="logo-facebook"></ion-icon>
+            </div>
+            <div class="w-2/3 md:w-5/6 py-5 lg:p-0">
+              <p class="font-chivo text-sm text-black leading-normal text-left">Find us on Facebook</p>
+            </div>
+          </a>
+          <a class="flex flex-wrap w-full h-8 items-center" href="https://www.instagram.com/lukesproject11/">
+            <div class="w-6 text-right md:text-center py-5 pr-1 lg:p-0">
+              <ion-icon class="text-2xl text-color-0194D3" name="logo-instagram"></ion-icon>
+            </div>
+            <div class="w-2/3 md:w-5/6 py-5 lg:p-0">
+              <p class="font-chivo text-sm text-black leading-normal text-left">Follow us on Instagram</p>
+            </div>
+          </a>
       </div>
     </div>
 </section>

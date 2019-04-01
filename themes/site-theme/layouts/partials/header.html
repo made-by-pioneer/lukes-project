@@ -66,8 +66,20 @@
     width: 80px;
     height: 80px;
 }
+#inner-page-mobile-logo {
+  display: none;
+}
 .inner-page #header {
-  background-color: #0194D3
+  background-color: #fff
+}
+.inner-page #mobile-logo {
+  display: none;
+}
+.inner-page #inner-page-mobile-logo {
+  display: inline;
+}
+.inner-page .mobile-menu-icon {
+  color: #005295;
 }
 .left-img-shadow {
   -webkit-box-shadow: -30px 30px 0px 0px rgba(253,185,36,1);
@@ -159,6 +171,9 @@ a {
 #mobile-logo {
   display: none;
 }
+#inner-page-mobile-logo {
+  display: none !important;
+}
 .header-box {
   padding: 45px 60px 45px 60px;
 }
@@ -181,8 +196,11 @@ a {
 <a id="desktop-logo" class="w-1/2 md:w-1/3" href="/">
   <img src="{{ .Site.Params.logos.logo }}">
 </a>
-<a id="mobile-logo" class="w-1/3 md:w-1/4 xl:w-1/6 mr-auto" href="/">
+<a id="mobile-logo" class="w-1/3 md:w-1/4 xl:w-1/6 mr-auto z-50" href="/">
   <img class="" src="{{ .Site.Params.logos.mobile_logo }}" width="150px">
+</a>
+<a id="inner-page-mobile-logo" class="w-1/3 md:w-1/4 xl:w-1/6 mr-auto z-50" href="/">
+  <img class="" src="{{ .Site.Params.logos.inner_page_mobile_logo }}" width="150px">
 </a>
 {{ partial "site-navigation.html" . }}
 <div id="header-button" class="w-1/2 md:w-1/6 ml-auto text-right z-50">

@@ -6,6 +6,7 @@
         background-size: cover;
         background-position-x: 50%;
         background-position-y: 50%;
+        z-index: -999;
     }
     .home-hero-title-shadow {
         top: 82px;
@@ -15,7 +16,7 @@
         z-index: 10;
     }
     .home-hero-image-desktop img {
-        width: 400px;
+        width: 390px;
     }
     @media screen and (min-width: 415px) {
     .home-hero-title-shadow {
@@ -29,9 +30,6 @@
         }
         .home-hero-title-shadow {
         top: 150px;
-        }
-        .home-hero-image-desktop img {
-        width: 480px;
         }
     }
     @media screen and (min-width: 1200px) {
@@ -54,12 +52,12 @@
 
 <section id="home-hero-section" class="flex flex-wrap -mt-24 lg:-mt-0">
     <div class="w-5/6 lg:w-1/3 flex mx-auto py-32 lg:py-8">
-        <h1 class="font-trade-gothic text-white lg:text-color-00447c px-2 text-44 lg:font-black italic z-50 home-hero-title">{{ .Params.hero.Title }}</h1>
+        <h1 class="font-trade-gothic text-white lg:text-color-00447c px-2 text-44 xxl:text-6xl lg:font-black italic z-50 home-hero-title">{{ .Params.hero.Title }}</h1>
         <div class="w-5/6 lg:w-1/3 absolute home-hero-title-shadow">
-            <h1 class="font-trade-gothic inline text-transparent italic px-16 sm:px-6 border-b-20 border-color-0194D3 lg:border-color-fdb924 home-hero-title-hidden-text text-44">{{ .Params.hero.Title }}</h1>
+            <h1 class="font-trade-gothic inline text-transparent italic px-16 sm:px-6 lg:font-black border-b-20 border-color-0194D3 lg:border-color-fdb924 home-hero-title-hidden-text text-44 xxl:text-6xl">{{ .Params.hero.Title }}</h1>
         </div>
     </div>
-    <div class="-mt-24 hidden lg:inline w-1/2 text-center lg:text-left home-hero-image-desktop">
+    <div class="-mt-24 hidden lg:inline w-1/2 text-center xl:text-left home-hero-image-desktop">
         <img class="right-img-shadow" src="/pageimg/servant-leadership-future-generations.jpg">
     </div>
 </section>
@@ -76,7 +74,7 @@
 </section>
 
 <section id="home-icon-box-section" class="bg-home-icon-box-section flex flex-wrap py-12 lg:-mt-32">
-    <div class="flex flex-wrap w-4/5 lg:w-1/4 bg-white p-5 md:p-6 mx-auto xl:mx-0 xl:ml-auto -mt-40 sm:-mt-32 lg:-mt-0 items-center shadow-lg">
+    <a href="/about-us" class="flex flex-wrap w-4/5 lg:w-1/4 bg-white p-5 md:p-6 mx-auto xl:mx-0 xl:ml-auto -mt-40 sm:-mt-32 lg:-mt-0 items-center shadow-lg">
       <div class="w-5/6 sm:w-1/3 text-center mx-auto">
         <img class="icon-in-section" src="/pageimg/icons8-knowledge-sharing.svg">
       </div>
@@ -84,8 +82,8 @@
         <h4 class="text-color-0194D3 pb-2 font-thin text-xl">Learn More</h4>
         <p class="text-color-262626 leading-tight">We equip students to serve their communities.</p>
       </div>
-    </div>
-    <div class="flex flex-wrap w-4/5 lg:w-1/4 bg-white p-5 md:p-6 mx-auto xl:mr-auto items-center my-4 lg:my-0 shadow-lg">
+    </a>
+    <a href="/donate-time" class="flex flex-wrap w-4/5 lg:w-1/4 bg-white p-5 md:p-6 mx-auto xl:mr-auto items-center my-4 lg:my-0 shadow-lg">
       <div class="w-5/6 sm:w-1/3 text-center mx-auto">
         <img class="icon-in-section" src="/pageimg/icons8-trust.svg">
       </div>
@@ -93,8 +91,8 @@
         <h4 class="text-color-0194D3 pb-2 font-thin text-xl">Way to Give</h4>
         <p class="text-color-262626 leading-tight">You can help foster servant leadership with your generosity.</p>
       </div>
-    </div>
-    <div class="flex flex-wrap w-4/5 lg:w-1/4 bg-white p-5 md:p-6 mx-auto xl:mx-0 xl:mr-auto items-center shadow-lg">
+    </a>
+    <a href="/apply" class="flex flex-wrap w-4/5 lg:w-1/4 bg-white p-5 md:p-6 mx-auto xl:mx-0 xl:mr-auto items-center shadow-lg">
       <div class="w-5/6 sm:w-1/3 text-center mx-auto">
         <img class="icon-in-section" src="/pageimg/icons8-idea-sharing.svg">
       </div>
@@ -102,7 +100,7 @@
         <h4 class="text-color-0194D3 pb-2 font-thin text-xl">Apply Now</h4>
         <p class="text-color-262626 leading-tight">Have an idea for a project or want to nominate a student?</p>
       </div>
-    </div>
+    </a>
 </section>
 
 <section id="why-we-exist-white" class="flex flex-wrap pt-8 pb-32">
