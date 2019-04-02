@@ -6,17 +6,17 @@ title = "Luke’s Project 11, Inc."
 [[menu.desktop]]
 identifier = "about-us"
 name = "About Us"
-url = "/about-us"
+url = "#desktop-mega-about"
 weight = 1
 [[menu.desktop]]
 identifier = "ways-to-give"
 name = "Ways to Give"
-url = "/donate-time"
+url = "#desktop-mega-give"
 weight = 2
 [[menu.desktop]]
 identifier = "apply-now"
 name = "Apply Now"
-url = "/apply"
+url = "#desktop-mega-apply"
 weight = 3
 [[menu.desktop]]
 identifier = "contact-us"
