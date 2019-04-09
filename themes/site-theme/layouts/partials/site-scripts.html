@@ -30,6 +30,17 @@ var footerFunctions = new Vue({
 });
 </script>
 
+<script>
+var readMore = new Vue({
+    el: '.readMore',
+    data: {
+      homereadMore: false,
+      closereadMore: true
+    },
+});
+
+</script>
+
 {{ partial "js/elevator.min.js.html" . }}
 {{ partial "js/glide-min.js.html" . }}
 

@@ -34,13 +34,13 @@ identifier = "ways-to-give"
 name = "Ways to Give"
 url = "/donate-time"
 weight = 2
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Donate my Time</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Donate my Money</a></li></ul>'
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/donate-time">Donate my Time</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/donate-money">Donate my Money</a></li></ul>'
 [[menu.mobile]]
 identifier = "apply-now"
 name = "Apply Now"
 url = "/apply"
 weight = 3
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Fund my Project</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="">Nominate a Graduate</a></li></ul>'
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/apply">Fund my Project</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/nominate-graduate">Nominate a Graduate</a></li></ul>'
 [[menu.mobile]]
 identifier = "contact-us"
 name = "Contact Us"

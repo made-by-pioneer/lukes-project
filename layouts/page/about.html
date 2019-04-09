@@ -1,6 +1,14 @@
 {{ define "main" }}
 
 <style>
+.glide__bullet {
+    color: #0194D3;
+}
+.glide__bullet--active {
+    background-color: #0194D3;
+    border-radius: 6em;
+    height: 16px;
+}
 @media screen and (min-width: 992px) {
     .glide__slide {
         opacity: .3;
@@ -21,17 +29,17 @@
         <img class="left-img-shadow" src="/pageimg/About Luke’s Project.jpg">
     </div>
     <div class="w-4/5 lg:w-1/2 mx-auto lg:mx-0 lg:mr-auto pt-16 lg:pt-0">
-        <h2 class="font-trade-gothic text-base italic text-color-0194D3">Who We Are</h2>
-        <h3 class="font-trade-gothic text-4xl text-color-262626 italic pb-3">About Luke’s Project</h3>
-        <p class="font-chivo text-xl text-color-262626 leading-tight tracking-wide">Luke’s Project was created to help our youth improve lives and communities through creative acts of service.  The goal is to guide students to care for their neighbor and to engage in the community around them by encouraging them to serve others; whether by adult initiated projects or self-initiated projects/random acts of kindness. We at LP11 want to be a resource for all who are willing to give their time, talents and “Sweat Equity” to help students discover the joy and contentment that a life of serving those around them. This not only benefits those being served, but the “server” as well.</p>
+        <h2 class="font-trade-gothic text-base font-black italic text-color-0194D3">Who We Are</h2>
+        <h3 class="font-trade-gothic text-4xl font-black text-color-262626 italic pb-3">About Luke’s Project</h3>
+        <p class="font-chivo text-xl text-color-262626 leading-tight">Luke’s Project was created to help our youth improve lives and communities through creative acts of service.  The goal is to guide students to care for their neighbor and to engage in the community around them by encouraging them to serve others; whether by adult initiated projects or self-initiated projects/random acts of kindness. We at LP11 want to be a resource for all who are willing to give their time, talents and “Sweat Equity” to help students discover the joy and contentment that a life of serving those around them. This not only benefits those being served, but the “server” as well.</p>
     </div>
 </section>
 
 <section id="service-award" class="flex flex-wrap items-center lg:px-32 pt-32 flex-col-reverse lg:flex-row">
     <div class="w-4/5 lg:w-1/2 mx-auto pt-16 lg:pt-0">
-        <h2 class="font-trade-gothic text-base italic text-color-0194D3">Who We Are</h2>
-        <h3 class="font-trade-gothic text-4xl text-color-262626 italic pb-3">Luke’s Legacy</h3>
-        <p class="font-chivo text-xl text-color-262626 leading-tight tracking-wide">Luke was a kid who loved people. Outwardly he may have seemed like a normal teenager, but inside was another story. Luke had an enormous heart and a calling to serve others. He created friends wherever he went and he wanted to leave places better than they were when he arrived. During Luke’s short 20 years on this earth, he was able to touch and change countless people’s lives through acts of service. From mission trips and volunteering his time, to working at his local church and pumping thousands of people’s gas at his college job, Luke thought of others before thinking of himself.</p>
+        <h2 class="font-trade-gothic text-base font-black italic text-color-0194D3">Who We Are</h2>
+        <h3 class="font-trade-gothic text-4xl font-black text-color-262626 italic pb-3">Luke’s Legacy</h3>
+        <p class="font-chivo text-xl text-color-262626 leading-tight">Luke was a kid who loved people. Outwardly he may have seemed like a normal teenager, but inside was another story. Luke had an enormous heart and a calling to serve others. He created friends wherever he went and he wanted to leave places better than they were when he arrived. During Luke’s short 20 years on this earth, he was able to touch and change countless people’s lives through acts of service. From mission trips and volunteering his time, to working at his local church and pumping thousands of people’s gas at his college job, Luke thought of others before thinking of himself.</p>
     </div>
     <div class="w-4/5 lg:w-1/2 xl:w-1/2 text-center mx-auto lg:pr-10">
         <img class="right-img-shadow" src="/pageimg/lukes-legacy.jpg">
@@ -40,8 +48,8 @@
 
 <section id="why-we-exist-white" class="flex flex-wrap pt-32 pb-32">
     <div class="w-4/5 lg:w-1/2 mx-auto">
-        <h3 class="font-trade-gothic pb-5 text-4xl text-color-262626 text-center italic font-black">Continuing the Legacy…</h3>
-        <p class="font-chivo text-xl text-color-262626 leading-tight tracking-wide text-center">As a way to continue luke’s servant leadership in the community, the board was formed after his passing in 2010. We strive to serve our community the way Luke did. Since the board’s creation in 2012 by Luke’s parents, like-minded community leaders have served various positions. Since the board’s creation, we have given $____ in scholarships and grants, and executed countless service projects in our community.</p>
+        <h3 class="font-trade-gothic pb-5 text-4xl font-black text-color-262626 text-center italic font-black">Continuing the Legacy…</h3>
+        <p class="font-chivo text-xl text-color-262626 leading-tight text-center">As a way to continue luke’s servant leadership in the community, the board was formed after his passing in 2010. We strive to serve our community the way Luke did. Since the board’s creation in 2012 by Luke’s parents, like-minded community leaders have served various positions. Since the board’s creation, we have given $____ in scholarships and grants, and executed countless service projects in our community.</p>
     </div>
 </section>
 
@@ -58,13 +66,18 @@
     <button class="mr-auto text-4xl pl-16 text-color-0194D3 focus:outline-none hidden lg:inline-flex glide__arrow glide__arrow--left" data-glide-dir="<"><ion-icon name="arrow-dropleft-circle"></ion-icon></button>
     <button class="ml-auto text-4xl pr-16 text-color-0194D3 focus:outline-none hidden lg:inline-flex glide__arrow glide__arrow--right" data-glide-dir=">"><ion-icon name="arrow-dropright-circle"></ion-icon></button>
   </div>
+  <div class="text-center pt-3 lg:pt-8 glide__bullets" data-glide-el="controls[nav]">
+    <button class="glide__bullet" data-glide-dir="=0"><ion-icon name="radio-button-off"></ion-icon></button>
+    <button class="glide__bullet" data-glide-dir="=1"><ion-icon name="radio-button-off"></ion-icon></button>
+    <button class="glide__bullet" data-glide-dir="=2"><ion-icon name="radio-button-off"></ion-icon></button>
+  </div>
 </div>
 </section>
 
 <section id="meet-our-board-title" class="flex flex-wrap pb-32">
     <div class="w-4/5 lg:w-1/2 mx-auto">
-        <h3 class="font-trade-gothic pb-5 text-4xl text-color-262626 text-center italic font-black">Meet Our Board</h3>
-        <p class="font-chivo text-xl text-color-262626 leading-tight tracking-wide text-center">Our current board is made up of some of the best and brightest around our town. Meet them below:</p>
+        <h3 class="font-trade-gothic pb-5 text-4xl font-black text-color-262626 text-center italic font-black">Meet Our Board</h3>
+        <p class="font-chivo text-xl text-color-262626 leading-tight text-center">Our current board is made up of some of the best and brightest around our town. Meet them below:</p>
     </div>
 </section>
 
@@ -72,23 +85,23 @@
     <div class="flex flex-wrap w-5/6 mx-auto">
         <div class="w-5/6 md:w-1/3 lg:w-1/5 text-center mx-auto border-r-20 border-l-20 border-b-20 border-white">
             <img class="sm:px-24 md:px-0" src="/pageimg/blank-person-photo.jpg">
-            <h6 class="font-trade-gothic text-2xl italic font-black text-color-0194D3">Julie Anderson</h6>
+            <h6 class="font-trade-gothic text-2xl font-black italic text-color-0194D3">Julie Anderson</h6>
         </div>
         <div class="w-5/6 md:w-1/3 lg:w-1/5 text-center mx-auto border-r-20 border-l-20 border-b-20 border-white">
             <img class="sm:px-24 md:px-0" src="/pageimg/blank-person-photo.jpg">
-            <h6 class="font-trade-gothic text-2xl italic font-black text-color-0194D3">Greg Anderson</h6>
+            <h6 class="font-trade-gothic font-black text-2xl italic text-color-0194D3">Greg Anderson</h6>
         </div>
         <div class="w-5/6 md:w-1/3 lg:w-1/5 text-center mx-auto border-r-20 border-l-20 border-b-20 border-white">
             <img class="sm:px-24 md:px-0" src="/pageimg/blank-person-photo.jpg">
-            <h6 class="font-trade-gothic text-2xl italic font-black text-color-0194D3">Chris Chance</h6>
+            <h6 class="font-trade-gothic text-2xl font-black italic text-color-0194D3">Chris Chance</h6>
         </div>
         <div class="w-5/6 md:w-1/3 lg:w-1/5 text-center mx-auto border-r-20 border-l-20 border-b-20 border-white">
             <img class="sm:px-24 md:px-0" src="/pageimg/blank-person-photo.jpg">
-            <h6 class="font-trade-gothic text-2xl italic font-black text-color-0194D3">Jamie Lanier</h6>
+            <h6 class="font-trade-gothic text-2xl font-black italic text-color-0194D3">Jamie Lanier</h6>
         </div>
         <div class="w-5/6 md:w-1/3 lg:w-1/5 text-center mx-auto border-r-20 border-l-20 border-b-20 border-white">
             <img class="sm:px-24 md:px-0" src="/pageimg/blank-person-photo.jpg">
-            <h6 class="font-trade-gothic text-2xl italic font-black text-color-0194D3">Troy Poulin</h6>
+            <h6 class="font-trade-gothic text-2xl font-black italic text-color-0194D3">Troy Poulin</h6>
         </div>
     </div>
 </section>
