@@ -2,74 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Luke’s Project 11, Inc.</title>
-    <link>http://example.com/</link>
+    <link>https://lp11-demo.netlify.com/</link>
     <description>Recent content in Home on Luke’s Project 11, Inc.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lp11-demo.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About Us</title>
-      <link>http://example.com/about-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.com/about-us/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Hey There 1</title>
-      <link>http://example.com/news/hey-there-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://lp11-demo.netlify.com/news/hey-there-1/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/news/hey-there-1/</guid>
-      <description></description>
+      <guid>https://lp11-demo.netlify.com/news/hey-there-1/</guid>
+      <description>Post 1</description>
     </item>
     
     <item>
       <title>Hey There 2</title>
-      <link>http://example.com/news/hey-there-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://lp11-demo.netlify.com/news/hey-there-2/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/news/hey-there-2/</guid>
-      <description></description>
+      <guid>https://lp11-demo.netlify.com/news/hey-there-2/</guid>
+      <description>Post 2</description>
     </item>
     
     <item>
       <title>Hey There 3</title>
-      <link>http://example.com/news/hey-there-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://lp11-demo.netlify.com/news/hey-there-3/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/news/hey-there-3/</guid>
-      <description></description>
+      <guid>https://lp11-demo.netlify.com/news/hey-there-3/</guid>
+      <description>Post 3</description>
     </item>
     
     <item>
       <title>Hey There 4</title>
-      <link>http://example.com/news/hey-there-4/</link>
+      <link>https://lp11-demo.netlify.com/news/hey-there-4/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://lp11-demo.netlify.com/news/hey-there-4/</guid>
+      <description>Post 4</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>https://lp11-demo.netlify.com/about-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/news/hey-there-4/</guid>
+      <guid>https://lp11-demo.netlify.com/about-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apply</title>
+      <link>https://lp11-demo.netlify.com/apply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lp11-demo.netlify.com/apply/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://lp11-demo.netlify.com/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lp11-demo.netlify.com/contact-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Donate my Money</title>
+      <link>https://lp11-demo.netlify.com/donate-money/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lp11-demo.netlify.com/donate-money/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Donate my Time</title>
+      <link>https://lp11-demo.netlify.com/donate-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lp11-demo.netlify.com/donate-time/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News and Events</title>
-      <link>http://example.com/news-and-events/</link>
+      <link>https://lp11-demo.netlify.com/news-and-events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/news-and-events/</guid>
+      <guid>https://lp11-demo.netlify.com/news-and-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nominate a Graduate</title>
+      <link>https://lp11-demo.netlify.com/nominate-graduate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lp11-demo.netlify.com/nominate-graduate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thank You</title>
-      <link>http://example.com/thank-you/</link>
+      <link>https://lp11-demo.netlify.com/thank-you/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/thank-you/</guid>
+      <guid>https://lp11-demo.netlify.com/thank-you/</guid>
       <description></description>
     </item>
     

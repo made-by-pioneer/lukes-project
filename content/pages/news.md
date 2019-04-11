@@ -1,6 +1,6 @@
 ---
 type: page
-layout: news
+layout: all
 url: /news-and-events
 title: 'News and Events'
 params:

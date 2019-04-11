@@ -1,6 +1,6 @@
 ---
 type: page
-layout: nominate-graduate
+layout: all
 url: /nominate-graduate
 title: 'Nominate a Graduate'
 params:

@@ -1,6 +1,6 @@
 ---
 type: page
-layout: about
+layout: all
 url: /about-us
 title: 'About Us'
 params:

@@ -3,6 +3,7 @@ description = "This domain is established to be used for illustrative examples i
 languageCode = "en-us"
 theme = "site-theme"
 title = "Luke’s Project 11, Inc."
+assetDir = "assets"
 [[menu.desktop]]
 identifier = "about-us"
 name = "About Us"

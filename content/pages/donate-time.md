@@ -1,6 +1,6 @@
 ---
 type: page
-layout: donate-time
+layout: all
 url: /donate-time
 title: 'Donate my Time'
 params:

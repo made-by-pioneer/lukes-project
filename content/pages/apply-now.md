@@ -1,6 +1,6 @@
 ---
 type: page
-layout: apply-now
+layout: all
 url: /apply
 title: 'Apply'
 params:
