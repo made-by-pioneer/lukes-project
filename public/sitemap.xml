@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/news/hey-there-1/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/news/hey-there-2/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/news/hey-there-3/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/news/hey-there-4/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/posts/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/about-us/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/apply/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/contact-us/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/donate-money/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/donate-time/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/news-and-events/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/nominate-graduate/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/pages/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lp11-demo.netlify.com/thank-you/</loc>
+  </url>
+  
+</urlset>
