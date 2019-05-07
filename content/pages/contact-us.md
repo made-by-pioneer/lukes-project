@@ -1,6 +1,6 @@
 ---
 type: page
-layout: all
+layout: contact
 url: /contact-us
 title: 'Contact'
 params:

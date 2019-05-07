@@ -1,6 +1,6 @@
 ---
 type: page
-layout: all
+layout: donate-my-money
 url: /donate-money
 title: 'Donate my Money'
 params:

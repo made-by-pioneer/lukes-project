@@ -1,6 +1,6 @@
 ---
 type: page
-layout: all
+layout: home
 url: /
 title: 'Home'
 params:
