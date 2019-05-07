@@ -5,7 +5,7 @@
   {{ range .Site.Menus.desktop }}
   <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} inline-flex w-24 text-color-00447c no-underline text-sm xl:text-base italic font-black {{ lower .Identifier }}-menu" href="{{.URL}}"><span class="mx-auto lg:mx-0 lg:mr-auto font-trade-gothic desktop-menu-item">{{ .Name }}</span></a>
   {{ end }}
-  <div class="text-center py-3 pl-0 desktop-mega-about">
+  <div class="text-center py-3 pl-3 desktop-mega-about">
     {{ $currentNode := . }}
     {{ range .Site.Menus.about }}
     <div class="block text-left pb-3">

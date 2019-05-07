@@ -208,6 +208,9 @@ a {
 .inner-page #header {
   background-color: transparent;
 }
+.about-us-menu {
+  padding-left: 12px;
+}
 }
 @media screen and (min-width: 1200px) {
 
@@ -230,7 +233,7 @@ a {
 <a id="inner-page-mobile-logo" class="w-1/3 md:w-1/4 xl:w-1/6 mr-auto z-50" href="/">
   <img class="" src="{{ .Site.Params.logos.inner_page_mobile_logo }}" width="150px">
 </a>
-{{ $navHTML := resources.Get "globalHTML/siteNavigation.html" | resources.ExecuteAsTemplate "mininav.html" . }}{{ $miniNav := $navHTML | resources.Minify }}{{ $miniNav.Content | safeHTML }}
+{{ partial "siteNavigation.html" . }}
 <div id="header-button" class="w-1/2 md:w-1/6 ml-auto text-right z-50">
   <a href="/contact-us">
     <button class="hidden lg:inline-flex bg-color-0194D3 hover:bg-color-0182BA active:bg-color-0170A0 focus:bg-color-0182BA hover:cursor-pointer focus:outline-none px-4 py-3 text-base text-white italic font-normal default-button">Donate Here</button>

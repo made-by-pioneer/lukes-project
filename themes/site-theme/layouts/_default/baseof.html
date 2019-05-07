@@ -2,13 +2,13 @@
 
 <body class="{{ .Param "page-status" }}">
 
-{{ block "header" . }}{{ $headerHTML := resources.Get "globalHTML/header.html" | resources.ExecuteAsTemplate "miniHead.html" . }}{{ $miniHead := $headerHTML | resources.Minify }}{{ $miniHead.Content | safeHTML }}{{ end }}
+{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
 
 <main role="main">{{ block "main" . }}{{ end }}</main>
 
-{{ block "footer" . }}{{ $footerHTML := resources.Get "globalHTML/footer.html" | resources.ExecuteAsTemplate "miniFooter.html" . }}{{ $miniFooter := $footerHTML | resources.Minify }}{{ $miniFooter.Content | safeHTML }}{{ end }}
+{{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
 
-{{ block "scripts" . }}{{ $scriptsHTML := resources.Get "globalHTML/siteScripts.html" | resources.ExecuteAsTemplate "miniScripts.html" . }}{{ $miniScripts := $scriptsHTML | resources.Minify }}{{ $miniScripts.Content | safeHTML }}{{ end }}
+{{ block "scripts" . }}{{ partial "siteScripts.html" . }}{{ end }}
 
 </body>
 </html>

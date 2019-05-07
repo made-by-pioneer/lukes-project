@@ -1,4 +1,4 @@
-{{ define "header" }}{{ $headerHTML := resources.Get "globalHTML/header.html" | resources.ExecuteAsTemplate "miniHead.html" . }}{{ $miniHead := $headerHTML | resources.Minify }}{{ $miniHead.Content | safeHTML }}{{ end }}
+{{ define "header" }}{{ partial "header.html" . }}{{ end }}
 {{ define "main" }}
   <article class="py-5 text-center">
     <h1>
