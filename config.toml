@@ -29,7 +29,7 @@ identifier = "about-us"
 name = "About Us"
 url = "/about-us"
 weight = 1
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/about-us">Learn about LP11</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/news-and-events">News and Events</a></li></ul>'
+post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/about-us">Learn about LP11</a></li></ul>'
 [[menu.mobile]]
 identifier = "ways-to-give"
 name = "Ways to Give"
@@ -52,12 +52,6 @@ weight = 4
     name       = "Learn about LP11"
     url        = "/about-us"
     weight     = 1
-
-    [[menu.about]]
-    identifier = "news-and-events"
-    name       = "News and Events"
-    url        = "/news-and-events"
-    weight     = 2
 
     [[menu.give]]
     identifier = "donate-time"
@@ -94,8 +88,8 @@ inner_page_mobile_logo = "/branding/LP11.Mark.FullColor.svg"
 [params.address]
 city = "Statesboro"
 state = "GA"
-street = "131 Sweetbriar Trail"
-zip = 30461
+street = "PO box 1127"
+zip = 30459
 [params.email]
 email = "lukesproject11@gmail.com"
 [params.tracking]
