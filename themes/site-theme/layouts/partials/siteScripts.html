@@ -3,6 +3,10 @@
   <script defer src="{{ absURL (printf "%s%s" "/dist/" .) }}"></script>
 {{ end }}
 
+{{ if eq .Page.Layout "about-us" }}
+{{ partial "utilities/sliderCode.html" . }}
+{{ else }}{{ end }}
+
 <script>
 
 var siteFunctions = new Vue({

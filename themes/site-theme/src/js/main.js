@@ -8,8 +8,8 @@ AOS.init({
 });
 
 var glide = new Glide('#glide', {
-  type: 'carousel',
-  perView: 3,
+  type: 'slider',
+  perView: 1,
   focusAt: 'center',
   breakpoints: {
     800: {

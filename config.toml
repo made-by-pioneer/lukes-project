@@ -88,7 +88,7 @@ inner_page_mobile_logo = "/branding/LP11.Mark.FullColor.svg"
 [params.address]
 city = "Statesboro"
 state = "GA"
-street = "PO box 1127"
+street = "P.O. Box 1127"
 zip = 30459
 [params.email]
 email = "lukesproject11@gmail.com"

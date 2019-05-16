@@ -1,0 +1,6 @@
+{{ if .IsNamedParams }}
+{{ $data := index $.Site.Data.photos.photos $.Params.data }}
+{{ range $data }}
+<li class="slide opacity-50 p-4"><a target="_blank" href="{{ .Site.baseURL }}{{ .photo.photo_link }}"><img src="{{ .photo.photo_image }}"></a></li>
+{{ end }}
+{{- end -}}
