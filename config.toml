@@ -1,5 +1,4 @@
 baseURL = "https://lukesproject.com/"
-description = "Luke’s Project was created to help our youth improve lives and communities through creative acts of service."
 languageCode = "en-us"
 theme = "site-theme"
 title = "Luke’s Project 11, Inc."
@@ -77,6 +76,8 @@ weight = 4
     url        = "/nominate-graduate"
     weight     = 2
 
+[params.meta]
+description = "Luke’s Project was created to help our youth improve lives and communities through creative acts of service."
 [params.Contact_Numbers]
 Fax = "555.555.5555"
 Phone = "555.555.5555"
