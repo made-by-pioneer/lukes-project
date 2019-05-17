@@ -1,5 +1,5 @@
-baseURL = "https://lp11-demo.netlify.com/"
-description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
+baseURL = "https://lukesproject.com/"
+description = "Luke’s Project was created to help our youth improve lives and communities through creative acts of service."
 languageCode = "en-us"
 theme = "site-theme"
 title = "Luke’s Project 11, Inc."
@@ -95,4 +95,4 @@ email = "lukesproject11@gmail.com"
 [params.tracking]
 google_analytics = ""
 [params.publishing_settings]
-site_in_production = false
+site_in_production = true
