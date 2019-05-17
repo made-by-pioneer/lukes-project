@@ -13,26 +13,15 @@
 
 <section id="contact-form" class="flex flex-wrap items-start pb-48">
     <div class="w-full lg:w-3/5 mx-auto lg:mx-0 lg:ml-auto">
-        <form class="flex flex-wrap mx-auto pt-8 items-start" action="/thank-you" netlify-honeypot="field-for-coolguys" name="contact-form" method="POST" netlify>
+      <form class="lg:hidden flex flex-wrap mx-auto pt-8 items-start" action="/thank-you" netlify-honeypot="field-for-coolguys" name="contact-form" method="POST" netlify>
+        <input type="hidden" name="subject" value="General Contact" />
         <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:ml-auto border-r-20 border-white">
           <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">First Name*</label>
           <input name="first-name" type="text" placeholder="First name" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover default-input" required>
         </div>
-        <div class="hidden lg:inline-flex w-4/5 lg:w-1/2 flex-wrap mx-auto py-8 lg:py-0 border-r-20 border-white">
-          <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">How can we help you?*</label>
-          <select name="reason-for-contact" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover default-input" required>
-            <option name="Donate Time">I'd like to donate my time</option>
-            <option name="Donate Money">I'd like to donate my money</option>
-            <option name="Other Question">Other question</option>
-          </select>
-        </div>
         <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:mr-auto border-r-20 border-white">
           <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">Last Name*</label>
           <input name="last-name" type="text" placeholder="Last Name" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover default-input" required>
-        </div>
-        <div class="hidden lg:inline-flex w-4/5 lg:w-1/2 flex-wrap mx-auto lg:mr-auto border-r-20 border-white">
-          <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">Message</label>
-          <textarea name="message" type="text" placeholder="Type your message here" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover h-32 default-input"></textarea>
         </div>
         <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:mr-auto border-r-20 border-white lg:-mt-20">
           <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">Email*</label>
@@ -55,6 +44,37 @@
           <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 font-black">Message</label>
           <textarea name="message" type="text" placeholder="Type your message here" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover h-32 default-input"></textarea>
         </div>
+        <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:mr-auto text-center lg:text-right mt-5">
+          <input type="submit" value="Submit" class="bg-color-0194D3 hover:bg-color-0182BA active:bg-color-0170A0 focus:bg-color-0182BA focus:outline-none px-4 py-3 mx-auto lg:mx-0 lg:ml-auto lg:mr-5 text-base text-white italic font-normal ml-auto default-button">
+        </div>
+      </form>
+        <form class="hidden lg:flex flex-wrap mx-auto pt-8 items-start" action="/thank-you" netlify-honeypot="field-for-coolguys" name="contact-form" method="POST" netlify>
+        <input type="hidden" name="subject" value="General Contact" />
+        <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:ml-auto border-r-20 border-white">
+          <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">First Name*</label>
+          <input name="first-name" type="text" placeholder="First name" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover default-input" required>
+        </div>
+        <div class="inline-flex w-4/5 lg:w-1/2 flex-wrap mx-auto py-8 lg:py-0 border-r-20 border-white">
+          <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">How can we help you?*</label>
+          <select name="reason-for-contact" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover default-input" required>
+            <option name="Donate Time">I'd like to donate my time</option>
+            <option name="Donate Money">I'd like to donate my money</option>
+            <option name="Other Question">Other question</option>
+          </select>
+        </div>
+        <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:mr-auto border-r-20 border-white">
+          <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">Last Name*</label>
+          <input name="last-name" type="text" placeholder="Last Name" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover default-input" required>
+        </div>
+        <div class="inline-flex w-4/5 lg:w-1/2 flex-wrap mx-auto lg:mr-auto border-r-20 border-white">
+          <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">Message</label>
+          <textarea name="message" type="text" placeholder="Type your message here" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover h-32 default-input"></textarea>
+        </div>
+        <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:mr-auto border-r-20 border-white lg:-mt-20">
+          <label class="w-full font-trade-gothic tracking-wide italic text-color-262626 pt-5 font-black">Email*</label>
+          <input name="email" type="email" placeholder="Email" class="w-full p-3 mt-1 focus:outline-none font-chivo text-sm text-color-262626 focus:bg-input-hover-back border-2 border-solid border-color-cccccc hover:border-color-0194D3 focus:text-color-262626 focus:border-input-hover default-input" required>
+        </div>
+        <input type="text" name="field-for-coolguys" style="display:none" />
         <div class="w-4/5 lg:w-1/2 flex flex-wrap mx-auto lg:mr-auto text-center lg:text-right mt-5">
           <input type="submit" value="Submit" class="bg-color-0194D3 hover:bg-color-0182BA active:bg-color-0170A0 focus:bg-color-0182BA focus:outline-none px-4 py-3 mx-auto lg:mx-0 lg:ml-auto lg:mr-5 text-base text-white italic font-normal ml-auto default-button">
         </div>
