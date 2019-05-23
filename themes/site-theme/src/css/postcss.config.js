@@ -9,5 +9,6 @@ module.exports = {
     },
     'tailwindcss': ('./css-config.js'),
     'cssnano': {},
+    '@fullhuman/postcss-purgecss': {},
 	}
 };
