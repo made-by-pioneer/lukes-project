@@ -6,6 +6,7 @@ title = "Contact"
 type = "page"
 url = "/contact-us/"
 [contact_us]
-    Title = "Contact Us"
-    Paragraph = "We'd love to hear from you!"
+Paragraph = "We'd love to hear from you!"
+Title = "Contact Us"
+
 +++
