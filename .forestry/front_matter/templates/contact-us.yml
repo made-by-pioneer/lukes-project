@@ -1,0 +1,32 @@
+---
+label: Contact Us
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: page-class
+  label: page-class
+- type: text
+  name: page-status
+  label: page-status
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: url
+  label: url
+- type: field_group
+  name: contact_us
+  label: contact_us
+  fields:
+  - type: text
+    name: Title
+    label: Title
+  - type: text
+    name: Paragraph
+    label: Paragraph
