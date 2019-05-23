@@ -39,64 +39,64 @@ name = "Contact Us"
 url = "/contact-us"
 weight = 4
 [[menu.desktop]]
-identifier = "apply-now"
+identifier = "Apply Now"
 name = "Apply Now"
 url = "#desktop-mega-apply"
 weight = 3
 [[menu.desktop]]
-identifier = "ways-to-give"
+identifier = "Ways to Give"
 name = "Ways to Give"
 url = "#desktop-mega-give"
 weight = 2
 [[menu.desktop]]
-identifier = "about-us"
+identifier = "About Us"
 name = "About Us"
 url = "#desktop-mega-about"
 weight = 1
 [[menu.mobile]]
 identifier = "nominate-a-graduate"
 name = "Nominate a Graduate"
-parent = "apply-now"
+parent = "Apply Now"
 url = "/nominate-graduate"
 weight = 5
 [[menu.mobile]]
 identifier = "fund-my-project"
 name = "Fund my Project"
-parent = "apply-now"
+parent = "Apply Now"
 url = "/apply"
 weight = 1
 [[menu.mobile]]
-identifier = "apply-now"
+identifier = "Apply Now"
 name = "Apply Now"
 url = "/apply"
 weight = 8
 [[menu.mobile]]
 identifier = "donate-my-money"
 name = "Donate my Money"
-parent = "ways-to-give"
+parent = "Way to Give"
 url = "/donate-money/"
 weight = 6
 [[menu.mobile]]
 identifier = "donate-my-time"
 name = "Donate my Time"
-parent = "ways-to-give"
+parent = "Way to Give"
 url = "/donate-time/"
 weight = 2
 [[menu.mobile]]
-identifier = "ways-to-give"
+identifier = "Way to Give"
 name = "Ways to Give"
 url = "/donate-time"
 weight = 7
 [[menu.mobile]]
 identifier = "learn-about-LP-11"
 name = "Learn about LP11"
-parent = "about-us"
+parent = "About Us"
 url = "/about-us"
 weight = 3
 [[menu.mobile]]
 weight = 9
 [[menu.mobile]]
-identifier = "about-us"
+identifier = "About Us"
 name = "About Us"
 url = "/about-us"
 weight = 4
