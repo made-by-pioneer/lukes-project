@@ -99,12 +99,10 @@ name = "Apply Now"
 url = "/apply"
 weight = 3
 [[menu.mobile]]
-weight = 4
-[[menu.mobile]]
 identifier = "contact-us"
 name = "Contact Us"
 url = "/contact-us"
-weight = 5
+weight = 4
 [params.Contact_Numbers]
 Fax = "555.555.5555"
 Phone = "555.555.5555"
