@@ -56,13 +56,13 @@ weight = 4
 [[menu.mobile]]
 identifier = "donate-my-money"
 name = "Donate my Money"
-parent = "Ways to Give"
+parent = "Way to Give"
 url = "/donate-money/"
 weight = 2
 [[menu.mobile]]
 identifier = "donate-my-time"
 name = "Donate my Time"
-parent = "Ways to Give"
+parent = "Way to Give"
 url = "/donate-time/"
 weight = 1
 [[menu.mobile]]
