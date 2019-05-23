@@ -5,21 +5,34 @@ fields:
 - type: text
   name: type
   label: type
+  config:
+    required: true
+  hidden: true
 - type: text
   name: layout
   label: layout
+  config:
+    required: true
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
+  config:
+    required: true
 - type: text
   name: title
-  label: title
+  label: Page Title
+  config:
+    required: true
 - type: text
   name: page-status
   label: page-status
+  hidden: true
 - type: text
   name: page-class
   label: page-class
+  hidden: true
 - type: field_group
   name: hero
   label: hero
