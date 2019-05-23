@@ -1,9 +1,11 @@
----
-type: page
-layout: contact
-url: /contact-us
-title: 'Contact'
-params:
-page-status: 'inner-page'
-page-class: 'container'
----
++++
+layout = "contact"
+page-class = "container"
+page-status = "inner-page"
+title = "Contact"
+type = "page"
+url = "/contact-us/"
+[contact_us]
+    Title = "Contact Us"
+    Paragraph = "We'd love to hear from you!"
++++
