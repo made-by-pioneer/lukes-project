@@ -44,3 +44,5 @@ fields:
   - type: text
     name: Button_link
     label: Button_link
+pages:
+- content/pages/donate-money.md
