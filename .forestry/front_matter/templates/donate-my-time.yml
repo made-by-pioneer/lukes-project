@@ -1,0 +1,64 @@
+---
+label: Donate my Time
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: page-class
+  label: page-class
+- type: text
+  name: page-status
+  label: page-status
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: url
+  label: url
+- type: field_group
+  name: donating_my_time
+  label: donating_my_time
+  fields:
+  - type: text
+    name: Subtitle
+    label: Subtitle
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
+- type: field_group
+  name: ways_to_give_your_time
+  label: ways_to_give_your_time
+  fields:
+  - type: text
+    name: Title
+    label: Title
+  - type: text
+    name: Button_text
+    label: Button_text
+  - type: text
+    name: Button_link
+    label: Button_link
+- type: field_group
+  name: list_items
+  label: list_items
+  fields:
+  - type: text
+    name: list_item_one
+    label: list_item_one
+  - type: text
+    name: list_item_two
+    label: list_item_two
+  - type: text
+    name: list_item_three
+    label: list_item_three
+  - type: text
+    name: list_item_four
+    label: list_item_four
