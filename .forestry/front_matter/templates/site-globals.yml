@@ -5,18 +5,22 @@ fields:
 - type: text
   name: assetDir
   label: assetDir
+  hidden: true
 - type: text
   name: baseURL
   label: baseURL
+  hidden: true
 - type: text
   name: languageCode
   label: languageCode
+  hidden: true
 - type: text
   name: theme
   label: theme
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Site Title
 - type: field_group
   name: menu
   label: menu
@@ -59,9 +63,10 @@ fields:
     - type: number
       name: weight
       label: weight
+  hidden: true
 - type: field_group
   name: params
-  label: params
+  label: Site Settings
   fields:
   - type: field_group
     name: Contact_Numbers
@@ -126,6 +131,7 @@ fields:
     - type: boolean
       name: site_in_production
       label: site_in_production
+    hidden: true
   - type: field_group
     name: tracking
     label: tracking
