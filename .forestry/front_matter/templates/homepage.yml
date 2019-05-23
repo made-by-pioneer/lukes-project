@@ -1,0 +1,128 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: url
+  label: url
+- type: text
+  name: title
+  label: title
+- type: text
+  name: page-status
+  label: page-status
+- type: text
+  name: page-class
+  label: page-class
+- type: field_group
+  name: hero
+  label: hero
+  fields:
+  - type: text
+    name: Title
+    label: Title
+- type: field_group
+  name: fostering_the_future
+  label: fostering_the_future
+  fields:
+  - type: text
+    name: Subtitle
+    label: Subtitle
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
+- type: field_group
+  name: icon_boxes
+  label: icon_boxes
+  fields:
+  - type: field_group
+    name: learn_more_box
+    label: learn_more_box
+    fields:
+    - type: text
+      name: Title
+      label: Title
+    - type: text
+      name: Paragraph
+      label: Paragraph
+  - type: field_group
+    name: ways_to_give_box
+    label: ways_to_give_box
+    fields:
+    - type: text
+      name: Title
+      label: Title
+    - type: text
+      name: Paragraph
+      label: Paragraph
+  - type: field_group
+    name: apply_now_box
+    label: apply_now_box
+    fields:
+    - type: text
+      name: Title
+      label: Title
+    - type: text
+      name: Paragraph
+      label: Paragraph
+- type: field_group
+  name: why_we_exist
+  label: why_we_exist
+  fields:
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
+- type: field_group
+  name: service_award
+  label: service_award
+  fields:
+  - type: text
+    name: Subtitle
+    label: Subtitle
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
+- type: field_group
+  name: board_service_project
+  label: board_service_project
+  fields:
+  - type: text
+    name: Subtitle
+    label: Subtitle
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
+- type: field_group
+  name: scholarship_for_clubs
+  label: scholarship_for_clubs
+  fields:
+  - type: text
+    name: Subtitle
+    label: Subtitle
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
+  - type: textarea
+    name: Read_More
+    label: Read_More
