@@ -56,13 +56,13 @@ weight = 4
 [[menu.mobile]]
 identifier = "donate-my-money"
 name = "Donate my Money"
-parent = "Way to Give"
+parent = "Ways to Give"
 url = "/donate-money/"
 weight = 2
 [[menu.mobile]]
 identifier = "donate-my-time"
 name = "Donate my Time"
-parent = "Way to Give"
+parent = "Ways to Give"
 url = "/donate-time/"
 weight = 1
 [[menu.mobile]]
@@ -89,7 +89,7 @@ name = "About Us"
 url = "/about-us"
 weight = 1
 [[menu.mobile]]
-identifier = "Way to Give"
+identifier = "Ways to Give"
 name = "Ways to Give"
 url = "/donate-time"
 weight = 2
