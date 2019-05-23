@@ -1,30 +1,59 @@
 import styles from './../css/main.css';
+import $ from 'jquery';
 import AOS from 'aos';
-import Glide from '@glidejs/glide'
+import './scriptTools/bootstrapDropdown.js';
 
 AOS.init({
     disable: 'mobile',
     once: true
 });
 
-var glide = new Glide('#glide', {
-  type: 'slider',
-  perView: 1,
-  focusAt: 'center',
-  breakpoints: {
-    800: {
-      perView: 3
-    },
-    480: {
-      perView: 1
-    }
-  }
-})
+$(function() {
+  $(".mobile-menu-button").click(function() {
+    $('.mobile-menu').addClass("mobile-menu-toggle");
+  });
+});
 
-glide.mount()
+$(function() {
+  $(".mobile-menu-button").click(function() {
+    $('body').addClass("overflow-hidden");
+  });
+});
 
+$(function() {
+  $(".close-menu").click(function() {
+    $('.mobile-menu').removeClass("mobile-menu-toggle");
+    $('body').removeClass("overflow-hidden");
+  });
+});
 
+$(function() {
+  $(".mobile-menu-item").click(function() {
+    $('.mobile-menu').removeClass("mobile-menu-toggle");
+    $('body').removeClass("overflow-hidden");
+  });
+});
 
+$(function() {
+  $(".read-more").click(function() {
+    $('.readMore-content-expanded').addClass("read-more-toggle");
+  });
+});
 
+$(function() {
+  $(".read-more").click(function() {
+    $('.read-more').addClass("hide-read-more");
+  });
+});
 
+$(function() {
+  $(".close-read-more-link").click(function() {
+    $('.readMore-content-expanded').removeClass("read-more-toggle");
+  });
+});
 
+$(function() {
+  $(".close-read-more-link").click(function() {
+    $('.read-more').removeClass("hide-read-more");
+  });
+});

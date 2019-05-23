@@ -8,16 +8,46 @@ identifier = "about-us"
 name = "About Us"
 url = "#desktop-mega-about"
 weight = 1
+    [[menu.desktop]]
+        identifier = "learn-about-lp11"
+        name       = "Learn about LP11"
+        url        = "/about-us/"
+        weight     = 1
+        parent = "about-us"
 [[menu.desktop]]
 identifier = "ways-to-give"
 name = "Ways to Give"
 url = "#desktop-mega-give"
 weight = 2
+    [[menu.desktop]]
+        identifier = "donate-time"
+        name = "Donate my Time"
+        url = "/donate-time"
+        weight = 1
+        parent = "ways-to-give"
+    [[menu.desktop]]
+        identifier = "donate-my-money"
+        name = "Donate my Money"
+        url = "/donate-money/"
+        weight = 2
+        parent = "ways-to-give"
 [[menu.desktop]]
 identifier = "apply-now"
 name = "Apply Now"
 url = "#desktop-mega-apply"
 weight = 3
+    [[menu.desktop]]
+        identifier = "fund-my-project"
+        name = "Fund my Project"
+        url = "/apply"
+        weight = 1
+        parent = "apply-now"
+    [[menu.desktop]]
+        identifier = "nominate-a-graduate"
+        name = "Nominate a Graduate"
+        url = "/nominate-graduate"
+        weight = 2
+        parent = "apply-now"
 [[menu.desktop]]
 identifier = "contact-us"
 name = "Contact Us"
@@ -28,53 +58,52 @@ identifier = "about-us"
 name = "About Us"
 url = "/about-us"
 weight = 1
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/about-us">Learn about LP11</a></li></ul>'
+[[menu.mobile]]
+    [[menu.mobile]]
+        identifier = "learn-about-LP-11"
+        name = "Learn about LP11"
+        url = "/about-us"
+        weight = 1
+        parent = "about-us"
 [[menu.mobile]]
 identifier = "ways-to-give"
 name = "Ways to Give"
 url = "/donate-time"
 weight = 2
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/donate-time">Donate my Time</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/donate-money">Donate my Money</a></li></ul>'
+    [[menu.mobile]]
+        identifier = "donate-my-time"
+        name = "Donate my Time"
+        url = "/donate-time/"
+        weight = 1
+        parent = "ways-to-give"
+    [[menu.mobile]]
+        identifier = "donate-my-money"
+        name = "Donate my Money"
+        url = "/donate-money/"
+        weight = 2
+        parent = "ways-to-give"
 [[menu.mobile]]
 identifier = "apply-now"
 name = "Apply Now"
 url = "/apply"
 weight = 3
-post = '<ul class="text-left list-reset mobile-menu-inner-list"><li class="py-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/apply">Fund my Project</a></li><li class="pt-1 pb-2 opacity-50 mobile-menu-inner-item"><a class="no-underline text-white" href="/nominate-graduate">Nominate a Graduate</a></li></ul>'
+    [[menu.mobile]]
+        identifier = "fund-my-project"
+        name = "Fund my Project"
+        url = "/apply"
+        weight = 1
+        parent = "apply-now"
+    [[menu.mobile]]
+        identifier = "nominate-a-graduate"
+        name = "Nominate a Graduate"
+        url = "/nominate-graduate"
+        weight = 2
+        parent = "apply-now"
 [[menu.mobile]]
 identifier = "contact-us"
 name = "Contact Us"
 url = "/contact-us"
 weight = 4
-    [[menu.about]]
-    identifier = "learn-about-lp11"
-    name       = "Learn about LP11"
-    url        = "/about-us"
-    weight     = 1
-
-    [[menu.give]]
-    identifier = "donate-time"
-    name       = "Donate my Time"
-    url        = "/donate-time"
-    weight     = 1
-
-    [[menu.give]]
-    identifier = "donate-money"
-    name       = "Donate my Money"
-    url        = "/donate-money"
-    weight     = 2
-
-    [[menu.apply]]
-    identifier = "fund-my-project"
-    name       = "Fund my Project"
-    url        = "/apply"
-    weight     = 1
-
-    [[menu.apply]]
-    identifier = "nominate-a-graduate"
-    name       = "Nominate a Graduate"
-    url        = "/nominate-graduate"
-    weight     = 2
 
 [params.meta]
 description = "Luke’s Project was created to help our youth improve lives and communities through creative acts of service."

@@ -3,24 +3,23 @@
 <div class="w-full text-left items-center pl-6 xl:pl-0 desktop-menu">
   {{ $currentNode := . }}
   {{ range .Site.Menus.desktop }}
+  {{ if .HasChildren }}
+  <div class="inline dropdown">
+  <a class="inline-flex text-color-00447c no-underline text-sm xl:text-base italic font-black pr-6" data-toggle="dropdown" id="{{ .Name | urlize }}-dropdown" role="button" aria-expanded="false">
+    {{ .Pre }}
+      <span class="mx-auto lg:mx-0 lg:mr-auto font-trade-gothic desktop-menu-item">{{ .Name }}</span><i class="text-xs pl-1 pt-1 fas fa-caret-down"></i>
+  </a>
+  <div aria-labelledby="{{ .Name | urlize }}-dropdown" class="bg-gray-200 dropdown-menu rounded" role="menu">
+    {{ range .Children }}
+    <div class="text-left py-1 pl-3">
+        <a href="{{ .URL }}" class="mx-auto text-color-00447c no-underline text-base font-black font-trade-gothic desktop-inner-menu-item">{{ .Name }}</a>
+    </div>
+    {{ end }}
+  </div>
+  </div>
+  {{ else }}
   <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} inline-flex w-24 text-color-00447c no-underline text-sm xl:text-base italic font-black {{ lower .Identifier }}-menu" href="{{.URL}}"><span class="mx-auto lg:mx-0 lg:mr-auto font-trade-gothic desktop-menu-item">{{ .Name }}</span></a>
-  {{ end }}
-  <div class="text-center py-3 pl-3 desktop-mega-about">
-    {{ $currentNode := . }}
-    {{ range .Site.Menus.about }}
-    <div class="block text-left pb-3">
-    <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} mx-auto text-color-00447c no-underline text-base font-black font-trade-gothic desktop-inner-menu-item" href="{{.URL}}">{{ .Name }}</a>
-    </div>
-    {{ end }}
-  </div>
-  <div class="text-center py-3 pl-24 ml-1 desktop-mega-give">
-    {{ $currentNode := . }}
-    {{ range .Site.Menus.give }}
-    <div class="block text-left pb-3">
-    <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} mx-auto text-color-00447c no-underline text-base font-black font-trade-gothic desktop-inner-menu-item" href="{{.URL}}">{{ .Name }}</a>
-    </div>
-    {{ end }}
-  </div>
+  {{ end }}{{ end }}
   <div class="text-center py-3 pl-48 ml-10 desktop-mega-apply">
     {{ $currentNode := . }}
     {{ range .Site.Menus.apply }}
@@ -32,8 +31,8 @@
 </div>
 
 <div id="mobile-menu" class="">
-  <div class="mobile-menu-button ml-auto">
-    <button v-on:click="menuToggle = !menuToggle" class="mobile-menu-button ml-auto w-1/3"><i class="text-3xl text-white fas fa-bars mobile-menu-icon"></i></button>
+  <div class="mobile-menu-button">
+    <i class="text-3xl sm:text-5xl text-white fas fa-bars"></i>
   </div>
 </div>
 

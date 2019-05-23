@@ -242,20 +242,31 @@ a {
 </div>
 </section>
 
-<div id="mobile-menu" class="mobile-menu" v-bind:class="{ 'mobile-menu-toggle' : menuToggle }">
-  <div class="bg-color-00447c pb-12 mobile-menu-container">
+<div id="mobile-menu" class="mobile-menu">
+  <div class="bg-color-00447c pb-12 h-screen mobile-menu-container">
   <div class="flex items-center">
   <a id="mobile-menu-logo" class="w-1/3 md:w-1/4 xl:w-1/6 mr-auto" href="/">
     <img class="" src="{{ .Site.Params.logos.mobile_logo }}" width="150px">
   </a>
-  <a class="ml-auto w-1/3 text-right pr-10 lg:pr-0 close-menu" v-on:click="menuToggle = !menuToggle"><img class="" src="/pageimg/close-menu.svg"></a>
+  <a class="ml-auto w-1/3 text-right pr-10 lg:pr-0 close-menu"><img class="" src="/pageimg/close-menu.svg"></a>
   </div>
-  <ul class="text-left px-12 md:px-12 list-reset font-trade-gothic mobile-menu-list">
+  <div class="text-left px-12 md:px-12 pb-8 list-reset font-trade-gothic mobile-menu-list">
     {{ $currentNode := . }}
     {{ range .Site.Menus.mobile }}
-    <li class="pt-2 pb-4 mobile-menu-item">{{ .Pre }}<a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} no-underline text-4xl text-white" href="{{.URL}}">{{ .Name }}</a>{{ .Post }}</li>
+    {{ if .HasChildren }}
+  <a class="no-underline text-5xl text-white">
+    {{ .Pre }}
+      <span>{{ .Name }}</span>
+  </a>
+  <div class="flex flex-wrap text-left list-reset pt-2 pb-8 mobile-menu-inner-list">
+    {{ range .Children }}
+        <a href="{{ .URL }}" class="w-full text-2xl pb-1 opacity-50 no-underline text-white mobile-menu-inner-item">{{ .Name }}</a>
     {{ end }}
-  </ul>
+  </div>
+  {{ else }}
+    <li class="pt-2 pb-4 mobile-menu-item">{{ .Pre }}<a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} no-underline text-5xl text-white" href="{{.URL}}">{{ .Name }}</a></li>
+    {{ end }}{{ end }}
+  </div>
   <a href="/contact-us">
     <button class="ml-12 inline-flex lg:hidden bg-color-0194D3 hover:bg-color-0182BA active:bg-color-0170A0 focus:bg-color-0182BA hover:cursor-pointer focus:outline-none px-4 py-3 text-base text-white italic font-normal default-button">Donate Here</button>
   </a>
