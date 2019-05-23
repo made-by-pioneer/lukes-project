@@ -1,0 +1,52 @@
+---
+label: Nominate a Graduate
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: page-class
+  label: page-class
+- type: text
+  name: page-status
+  label: page-status
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: url
+  label: url
+- type: field_group
+  name: nominate_a_graduate
+  label: nominate_a_graduate
+  fields:
+  - type: text
+    name: Subtitle
+    label: Subtitle
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
+- type: field_group
+  name: service_award_application
+  label: service_award_application
+  fields:
+  - type: text
+    name: Title
+    label: Title
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
+- type: field_group
+  name: checkbox_disclaimer
+  label: checkbox_disclaimer
+  fields:
+  - type: textarea
+    name: Paragraph
+    label: Paragraph
