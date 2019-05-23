@@ -35,3 +35,5 @@ fields:
   - type: text
     name: Button_text
     label: Button_text
+pages:
+- content/pages/thank-you.md
