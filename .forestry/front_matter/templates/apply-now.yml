@@ -5,21 +5,26 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: page-class
   label: page-class
+  hidden: true
 - type: text
   name: page-status
   label: page-status
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Page Title
 - type: text
   name: type
   label: type
+  hidden: true
 - type: text
   name: url
   label: url
+  hidden: true
 - type: field_group
   name: getting_my_project_funded
   label: getting_my_project_funded
