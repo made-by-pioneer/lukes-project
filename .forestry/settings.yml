@@ -17,10 +17,9 @@ sections:
 - type: document
   path: themes/site-theme/data/photos/photos.yml
   label: Outreach Photos
-- type: directory
-  path: content/posts
-  label: Posts
-  create: all
+- type: document
+  path: config.toml
+  label: Site Globals
   match: "**/*"
 upload_dir: static/pageimg
 public_path: "/pageimg"
