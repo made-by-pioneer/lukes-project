@@ -17,7 +17,6 @@ sections:
 - type: document
   path: themes/site-theme/data/photos/photos.yml
   label: Outreach Photos
-  match: "**/*"
 - type: directory
   path: content/posts
   label: Posts

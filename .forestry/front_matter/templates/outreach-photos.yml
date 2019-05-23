@@ -1,0 +1,21 @@
+---
+label: Outreach Photos
+hide_body: true
+fields:
+- type: field_group_list
+  name: outreach_photos
+  label: outreach_photos
+  fields:
+  - type: field_group
+    name: photo
+    label: photo
+    fields:
+    - type: file
+      name: photo_image
+      label: photo_image
+    - type: file
+      name: photo_link
+      label: photo_link
+  - type: text
+    name: photo_label
+    label: photo_label
