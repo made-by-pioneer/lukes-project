@@ -165,3 +165,5 @@ fields:
     - type: file
       name: Photo
       label: Photo
+pages:
+- content/pages/about.md
