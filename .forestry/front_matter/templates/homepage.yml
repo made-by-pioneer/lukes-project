@@ -139,3 +139,5 @@ fields:
   - type: textarea
     name: Read_More
     label: Read_More
+pages:
+- content/_index.md
