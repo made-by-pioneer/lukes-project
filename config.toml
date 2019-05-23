@@ -10,22 +10,16 @@ parent = "Apply Now"
 url = "/nominate-graduate"
 weight = 2
 [[menu.desktop]]
-identifier = "fund-my-project"
-name = "Fund my Project"
-parent = "Apply Now"
-url = "/apply"
-weight = 1
-[[menu.desktop]]
 identifier = "donate-my-money"
 name = "Donate my Money"
 parent = "Ways to Give"
 url = "/donate-money/"
 weight = 2
 [[menu.desktop]]
-identifier = "donate-time"
-name = "Donate my Time"
-parent = "Ways to Give"
-url = "/donate-time"
+identifier = "fund-my-project"
+name = "Fund my Project"
+parent = "Apply Now"
+url = "/apply"
 weight = 1
 [[menu.desktop]]
 identifier = "learn-about-lp11"
@@ -34,31 +28,55 @@ parent = "About Us"
 url = "/about-us/"
 weight = 1
 [[menu.desktop]]
-identifier = "contact-us"
-name = "Contact Us"
-url = "/contact-us"
-weight = 4
+identifier = "donate-time"
+name = "Donate my Time"
+parent = "Ways to Give"
+url = "/donate-time"
+weight = 1
 [[menu.desktop]]
-identifier = "Apply Now"
-name = "Apply Now"
-url = "#desktop-mega-apply"
-weight = 3
+identifier = "About Us"
+name = "About Us"
+url = "#desktop-mega-about"
+weight = 1
 [[menu.desktop]]
 identifier = "Ways to Give"
 name = "Ways to Give"
 url = "#desktop-mega-give"
 weight = 2
 [[menu.desktop]]
-identifier = "About Us"
-name = "About Us"
-url = "#desktop-mega-about"
+identifier = "Apply Now"
+name = "Apply Now"
+url = "#desktop-mega-apply"
+weight = 3
+[[menu.desktop]]
+identifier = "contact-us"
+name = "Contact Us"
+url = "/contact-us"
+weight = 4
+[[menu.mobile]]
+identifier = "donate-my-money"
+name = "Donate my Money"
+parent = "Ways to Give"
+url = "/donate-money/"
+weight = 2
+[[menu.mobile]]
+identifier = "donate-my-time"
+name = "Donate my Time"
+parent = "Ways to Give"
+url = "/donate-time/"
 weight = 1
 [[menu.mobile]]
 identifier = "nominate-a-graduate"
 name = "Nominate a Graduate"
 parent = "Apply Now"
 url = "/nominate-graduate"
-weight = 5
+weight = 2
+[[menu.mobile]]
+identifier = "learn-about-LP-11"
+name = "Learn about LP11"
+parent = "About Us"
+url = "/about-us"
+weight = 1
 [[menu.mobile]]
 identifier = "fund-my-project"
 name = "Fund my Project"
@@ -66,45 +84,27 @@ parent = "Apply Now"
 url = "/apply"
 weight = 1
 [[menu.mobile]]
-identifier = "Apply Now"
-name = "Apply Now"
-url = "/apply"
-weight = 8
-[[menu.mobile]]
-identifier = "donate-my-money"
-name = "Donate my Money"
-parent = "Way to Give"
-url = "/donate-money/"
-weight = 6
-[[menu.mobile]]
-identifier = "donate-my-time"
-name = "Donate my Time"
-parent = "Way to Give"
-url = "/donate-time/"
-weight = 2
+identifier = "About Us"
+name = "About Us"
+url = "/about-us"
+weight = 1
 [[menu.mobile]]
 identifier = "Way to Give"
 name = "Ways to Give"
 url = "/donate-time"
-weight = 7
+weight = 2
 [[menu.mobile]]
-identifier = "learn-about-LP-11"
-name = "Learn about LP11"
-parent = "About Us"
-url = "/about-us"
+identifier = "Apply Now"
+name = "Apply Now"
+url = "/apply"
 weight = 3
 [[menu.mobile]]
-weight = 9
-[[menu.mobile]]
-identifier = "About Us"
-name = "About Us"
-url = "/about-us"
 weight = 4
 [[menu.mobile]]
 identifier = "contact-us"
 name = "Contact Us"
 url = "/contact-us"
-weight = 10
+weight = 5
 [params.Contact_Numbers]
 Fax = "555.555.5555"
 Phone = "555.555.5555"
