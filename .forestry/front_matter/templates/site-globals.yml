@@ -139,3 +139,5 @@ fields:
     - type: text
       name: googleAnalytics
       label: googleAnalytics
+pages:
+- config.toml

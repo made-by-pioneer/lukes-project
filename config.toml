@@ -36,21 +36,25 @@ weight = 1
 [[menu.desktop]]
 identifier = "About Us"
 name = "About Us"
+parent = ""
 url = "#desktop-mega-about"
 weight = 1
 [[menu.desktop]]
 identifier = "Ways to Give"
 name = "Ways to Give"
+parent = ""
 url = "#desktop-mega-give"
 weight = 2
 [[menu.desktop]]
 identifier = "Apply Now"
 name = "Apply Now"
+parent = ""
 url = "#desktop-mega-apply"
 weight = 3
 [[menu.desktop]]
 identifier = "contact-us"
 name = "Contact Us"
+parent = ""
 url = "/contact-us"
 weight = 4
 [[menu.mobile]]
@@ -86,21 +90,25 @@ weight = 1
 [[menu.mobile]]
 identifier = "About Us"
 name = "About Us"
+parent = ""
 url = "/about-us"
 weight = 1
 [[menu.mobile]]
 identifier = "Ways to Give"
 name = "Ways to Give"
+parent = ""
 url = "/donate-time"
 weight = 2
 [[menu.mobile]]
 identifier = "Apply Now"
 name = "Apply Now"
+parent = ""
 url = "/apply"
 weight = 3
 [[menu.mobile]]
 identifier = "contact-us"
 name = "Contact Us"
+parent = ""
 url = "/contact-us"
 weight = 4
 [params.Contact_Numbers]
