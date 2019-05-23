@@ -55,3 +55,5 @@ fields:
   - type: textarea
     name: Paragraph
     label: Paragraph
+pages:
+- content/pages/apply-now.md
