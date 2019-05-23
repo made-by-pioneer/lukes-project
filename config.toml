@@ -94,6 +94,6 @@ zip = 30459
 [params.email]
 email = "lukesproject11@gmail.com"
 [params.tracking]
-google_analytics = "UA-121813241-19"
+googleAnalytics = "UA-121813241-19"
 [params.publishing_settings]
 site_in_production = true
