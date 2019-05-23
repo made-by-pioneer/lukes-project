@@ -1,120 +1,118 @@
+assetDir = "assets"
 baseURL = "https://lukesproject.com/"
 languageCode = "en-us"
 theme = "site-theme"
 title = "Luke’s Project 11, Inc."
-assetDir = "assets"
 [[menu.desktop]]
-identifier = "about-us"
-name = "About Us"
-url = "#desktop-mega-about"
-weight = 1
-    [[menu.desktop]]
-        identifier = "learn-about-lp11"
-        name       = "Learn about LP11"
-        url        = "/about-us/"
-        weight     = 1
-        parent = "about-us"
-[[menu.desktop]]
-identifier = "ways-to-give"
-name = "Ways to Give"
-url = "#desktop-mega-give"
+identifier = "nominate-a-graduate"
+name = "Nominate a Graduate"
+parent = "Apply Now"
+url = "/nominate-graduate"
 weight = 2
-    [[menu.desktop]]
-        identifier = "donate-time"
-        name = "Donate my Time"
-        url = "/donate-time"
-        weight = 1
-        parent = "ways-to-give"
-    [[menu.desktop]]
-        identifier = "donate-my-money"
-        name = "Donate my Money"
-        url = "/donate-money/"
-        weight = 2
-        parent = "ways-to-give"
+[[menu.desktop]]
+identifier = "fund-my-project"
+name = "Fund my Project"
+parent = "Apply Now"
+url = "/apply"
+weight = 1
+[[menu.desktop]]
+identifier = "donate-my-money"
+name = "Donate my Money"
+parent = "Ways to Give"
+url = "/donate-money/"
+weight = 2
+[[menu.desktop]]
+identifier = "donate-time"
+name = "Donate my Time"
+parent = "Ways to Give"
+url = "/donate-time"
+weight = 1
+[[menu.desktop]]
+identifier = "learn-about-lp11"
+name = "Learn about LP11"
+parent = "About Us"
+url = "/about-us/"
+weight = 1
+[[menu.desktop]]
+identifier = "contact-us"
+name = "Contact Us"
+url = "/contact-us"
+weight = 4
 [[menu.desktop]]
 identifier = "apply-now"
 name = "Apply Now"
 url = "#desktop-mega-apply"
 weight = 3
-    [[menu.desktop]]
-        identifier = "fund-my-project"
-        name = "Fund my Project"
-        url = "/apply"
-        weight = 1
-        parent = "apply-now"
-    [[menu.desktop]]
-        identifier = "nominate-a-graduate"
-        name = "Nominate a Graduate"
-        url = "/nominate-graduate"
-        weight = 2
-        parent = "apply-now"
 [[menu.desktop]]
-identifier = "contact-us"
-name = "Contact Us"
-url = "/contact-us"
-weight = 4
-[[menu.mobile]]
-identifier = "about-us"
-name = "About Us"
-url = "/about-us"
-weight = 1
-[[menu.mobile]]
-    [[menu.mobile]]
-        identifier = "learn-about-LP-11"
-        name = "Learn about LP11"
-        url = "/about-us"
-        weight = 1
-        parent = "about-us"
-[[menu.mobile]]
 identifier = "ways-to-give"
 name = "Ways to Give"
-url = "/donate-time"
+url = "#desktop-mega-give"
 weight = 2
-    [[menu.mobile]]
-        identifier = "donate-my-time"
-        name = "Donate my Time"
-        url = "/donate-time/"
-        weight = 1
-        parent = "ways-to-give"
-    [[menu.mobile]]
-        identifier = "donate-my-money"
-        name = "Donate my Money"
-        url = "/donate-money/"
-        weight = 2
-        parent = "ways-to-give"
+[[menu.desktop]]
+identifier = "about-us"
+name = "About Us"
+url = "#desktop-mega-about"
+weight = 1
+[[menu.mobile]]
+identifier = "nominate-a-graduate"
+name = "Nominate a Graduate"
+parent = "apply-now"
+url = "/nominate-graduate"
+weight = 5
+[[menu.mobile]]
+identifier = "fund-my-project"
+name = "Fund my Project"
+parent = "apply-now"
+url = "/apply"
+weight = 1
 [[menu.mobile]]
 identifier = "apply-now"
 name = "Apply Now"
 url = "/apply"
+weight = 8
+[[menu.mobile]]
+identifier = "donate-my-money"
+name = "Donate my Money"
+parent = "ways-to-give"
+url = "/donate-money/"
+weight = 6
+[[menu.mobile]]
+identifier = "donate-my-time"
+name = "Donate my Time"
+parent = "ways-to-give"
+url = "/donate-time/"
+weight = 2
+[[menu.mobile]]
+identifier = "ways-to-give"
+name = "Ways to Give"
+url = "/donate-time"
+weight = 7
+[[menu.mobile]]
+identifier = "learn-about-LP-11"
+name = "Learn about LP11"
+parent = "about-us"
+url = "/about-us"
 weight = 3
-    [[menu.mobile]]
-        identifier = "fund-my-project"
-        name = "Fund my Project"
-        url = "/apply"
-        weight = 1
-        parent = "apply-now"
-    [[menu.mobile]]
-        identifier = "nominate-a-graduate"
-        name = "Nominate a Graduate"
-        url = "/nominate-graduate"
-        weight = 2
-        parent = "apply-now"
+[[menu.mobile]]
+weight = 9
+[[menu.mobile]]
+identifier = "about-us"
+name = "About Us"
+url = "/about-us"
+weight = 4
 [[menu.mobile]]
 identifier = "contact-us"
 name = "Contact Us"
 url = "/contact-us"
-weight = 4
-
-[params.meta]
-description = "Luke’s Project was created to help our youth improve lives and communities through creative acts of service."
+weight = 10
 [params.Contact_Numbers]
 Fax = "555.555.5555"
 Phone = "555.555.5555"
 [params.Logos]
 dark_logo = "/pageimg/dark-logo.svg"
+inner_page_mobile_logo = "/branding/LP11.Mark.FullColor.svg"
 logo = "/branding/LP11.Wordmark.Blue.svg"
 mobile_logo = "/branding/LP11.Mark.White.svg"
-inner_page_mobile_logo = "/branding/LP11.Mark.FullColor.svg"
 [params.address]
 city = "Statesboro"
 state = "GA"
@@ -122,7 +120,9 @@ street = "P.O. Box 1127"
 zip = 30459
 [params.email]
 email = "lukesproject11@gmail.com"
-[params.tracking]
-googleAnalytics = "UA-121813241-19"
+[params.meta]
+description = "Luke’s Project was created to help our youth improve lives and communities through creative acts of service."
 [params.publishing_settings]
 site_in_production = true
+[params.tracking]
+googleAnalytics = "UA-121813241-19"
