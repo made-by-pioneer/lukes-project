@@ -2,48 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Luke’s Project 11, Inc.</title>
-    <link>https://lp11-demo.netlify.com/posts/</link>
+    <link>https://lukesproject.com/posts/</link>
     <description>Recent content in Posts on Luke’s Project 11, Inc.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lp11-demo.netlify.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lukesproject.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hey There 1</title>
-      <link>https://lp11-demo.netlify.com/news/hey-there-1/</link>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://lp11-demo.netlify.com/news/hey-there-1/</guid>
-      <description>Post 1</description>
-    </item>
-    
-    <item>
-      <title>Hey There 2</title>
-      <link>https://lp11-demo.netlify.com/news/hey-there-2/</link>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://lp11-demo.netlify.com/news/hey-there-2/</guid>
-      <description>Post 2</description>
-    </item>
-    
-    <item>
-      <title>Hey There 3</title>
-      <link>https://lp11-demo.netlify.com/news/hey-there-3/</link>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://lp11-demo.netlify.com/news/hey-there-3/</guid>
-      <description>Post 3</description>
-    </item>
     
     <item>
       <title>Hey There 4</title>
-      <link>https://lp11-demo.netlify.com/news/hey-there-4/</link>
+      <link>https://lukesproject.com/news/hey-there-4/</link>
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lp11-demo.netlify.com/news/hey-there-4/</guid>
+      <guid>https://lukesproject.com/news/hey-there-4/</guid>
       <description>Post 4</description>
     </item>
     

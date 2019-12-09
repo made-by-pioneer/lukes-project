@@ -64,10 +64,12 @@
 
 <section id="board-members" class="flex flex-wrap pb-32">
     <div class="flex flex-wrap w-5/6 mx-auto">
+        {{ range .Site.Data.board_members.board_member }}
         <div class="w-5/6 md:w-1/3 lg:w-1/3 text-center mx-auto border-r-20 border-l-20 border-b-20 border-white">
-            <img class="sm:px-24 md:px-0" src="{{ .Params.board_members.member_one.Photo }}">
-            <h6 class="font-trade-gothic text-2xl font-black italic text-color-0194D3">{{ .Params.board_members.member_one.Name }}</h6>
+            <img class="sm:px-24 md:px-0" src="{{ .photo }}">
+            <h6 class="font-trade-gothic text-2xl font-black italic text-color-0194D3">{{ .name }}</h6>
         </div>
+        {{ end }}
         <div class="w-5/6 md:w-1/3 lg:w-1/3 text-center mx-auto border-r-20 border-l-20 border-b-20 border-white">
             <img class="sm:px-24 md:px-0" src="{{ .Params.board_members.member_two.Photo }}">
             <h6 class="font-trade-gothic font-black text-2xl italic text-color-0194D3">{{ .Params.board_members.member_two.Name }}</h6>

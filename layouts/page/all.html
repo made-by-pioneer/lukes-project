@@ -1,1 +1,0 @@
-{{ define "main" }}{{ $pageTitle := .Page.Title | urlize }}{{ $contentLocation := $pageTitle | print "/pageHTML/" | printf "%s.html" | lower }}{{ $allHTML := resources.Get $contentLocation | resources.ExecuteAsTemplate "miniAll.html" . }}{{ $miniAll := $allHTML | resources.Minify }}{{ $miniAll.Content | safeHTML }}{{ end }}
