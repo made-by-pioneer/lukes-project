@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: theme/site-theme/data/board_members.toml
+  label: Board Members
+  match: "**/*"
 - type: directory
   path: content
   label: Home Page
