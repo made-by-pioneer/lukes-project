@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: theme/site-theme/data/board_members.toml
-  label: Board Members
-  match: "**/*"
 - type: directory
   path: content
   label: Home Page
@@ -24,6 +20,9 @@ sections:
 - type: document
   path: config.toml
   label: Site Globals
+- type: document
+  path: themes/site-theme/data/board_members.toml
+  label: Board Members
 upload_dir: static/pageimg
 public_path: "/pageimg"
 front_matter_path: ''
