@@ -12,3 +12,5 @@ fields:
   - type: file
     name: photo
     label: photo
+pages:
+- themes/site-theme/data/board_members.toml
